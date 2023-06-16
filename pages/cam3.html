@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>De pinguïn - Woonkamer</title>
+    <link rel="stylesheet" href="../css/stylesheet.css" />
+    <script src="https://aframe.io/releases/1.4.0/aframe.min.js"></script>
+    <script src="../js/timeout.js" defer></script>
+  </head>
+  <body>
+    <a-scene>
+      <a-assets>
+        <video
+          id="video"
+          autoplay
+          loop="true"
+          src="../images/videos/opstrand.mp4"
+        ></video>
+      </a-assets>
+      <a-videosphere src="#video"></a-videosphere>
+    </a-scene>
+    <a href="../cams.html"
+      ><img class="terug" src="../images/back.png" alt="terug"
+    /></a>
+    <main>
+      <img class="cameraeffect" src="../images/cameraeffect.png" alt=" " />
+      <div class="camnav">
+        <div class="camerabuttons">
+          <a class="camnavbutton" href="cam1.html">Chill hoek</a>
+          <a class="camnavbutton" href="cam2.html">Slaap kamer</a>
+          <a class="camnavbutton active" href="#">Woon kamer</a>
+          <a class="camnavbutton" href="cam4.html">Uit<br />gang</a>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script>
+    AFRAME.registerComponent("no-look-controls", {
+      init: function () {
+        this.el.removeAttribute("look-controls");
+      },
+    });
+  </script>
+</html>
+
+<!-- <iframe width="1134" height="638" src="https://www.youtube.com/embed/ywg7cW0Txs4" title="CS50 2022 - Lecture 1 - C" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->

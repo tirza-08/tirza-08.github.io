@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>De pinguïn - Chill hoek</title>
+    <link rel="stylesheet" href="../css/stylesheet.css" />
+    <script src="https://aframe.io/releases/1.4.0/aframe.min.js"></script>
+    <script src="../js/timeout.js" defer></script>
+  </head>
+  <body>
+    <a-scene>
+      <a-assets>
+        <video
+          id="video"
+          autoplay
+          loop="true"
+          src="../images/videos/onderwater.mp4"
+        ></video>
+      </a-assets>
+      <a-videosphere src="#video"></a-videosphere>
+    </a-scene>
+    </a-scene>
+    <a href="../cams.html"
+      ><img class="terug" src="../images/back.png" alt="terug"
+    /></a>
+    <main>
+      <img class="cameraeffect" src="../images/cameraeffect.png" alt=" " />
+      <div class="camnav">
+        <div class="camerabuttons">
+          <a class="camnavbutton active" href="#">Chill hoek</a>
+          <a class="camnavbutton" href="cam2.html">Slaap kamer</a>
+          <a class="camnavbutton" href="cam3.html">Woon kamer</a>
+          <a class="camnavbutton" href="cam4.html">Uit<br />gang</a>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
