@@ -1,9 +1,16 @@
 {
-    "name": "De pinguïn",
-    "short_name": "Pinguïn",
-    "start_url": "/index.html",
-    "display": "standalone",
-    "background_color": "#ffffff",
-    "theme_color": "#4a90e2"
-  }
-  
+  "name": "De Pinguïn",
+  "short_name": "Pinguïn",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#4a90e2",
+  "orientation": "landscape",
+  "icons": [
+    {
+      "src": "images/appicon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
