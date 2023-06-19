@@ -1,4 +1,4 @@
-const inactivityDuration = 180000; // 3 minuten
+const inactivityDuration = 120000; // 2 minuten
 let inactivityTimeout;
 
 const resetInactivityTimer = () => {
