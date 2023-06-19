@@ -1,0 +1,9 @@
+{
+    "name": "De pinguïn",
+    "short_name": "Pinguïn",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#4a90e2"
+  }
+  

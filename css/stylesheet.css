@@ -19,8 +19,8 @@ body {
 
 .terug {
   width: 8vw;
-  left: 20px;
-  top: 20px;
+  left: 2vw;
+  top: 2vw;
   position: absolute;
 }
 
@@ -31,7 +31,7 @@ article {
 h1 {
   font-family: "wildlands-scratch", Verdana, Geneva, Tahoma, sans-serif;
   font-size: 82px;
-  margin: 3% 0 0 0;
+  margin: 2vw 0 0 0;
 }
 @media only screen and (max-width: 900px) {
   h1 {
